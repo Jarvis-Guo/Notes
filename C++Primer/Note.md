@@ -15,14 +15,19 @@
 ##### 2.1.1 算术类型
 &nbsp;&nbsp;&nbsp;&nbsp;算术类型又分为两类--
   
-&nbsp;&nbsp;&nbsp;&nbsp;整型
+ - 整型
   
-&nbsp;&nbsp;&nbsp;&nbsp;浮点型
+ - 浮点型
   
 
 
 &nbsp;&nbsp;&nbsp;&nbsp;**带符号与无符号类型**
-  
+
+&nbsp;&nbsp;&nbsp;&nbsp;以上的算术类型都是默认的带符号类型，在这些类型名前添加unsigned就可以得到无符号类型
+
+&nbsp;&nbsp;&nbsp;&nbsp;与整型不同，字符型被分为char、signed char和unsigned char，需要注意的是：尽管有三种字符型，但表现形式仍是只有两种，且char与signed char并不一样，char的表现形式具体是由编译器决定的
+
+
 &nbsp;&nbsp;&nbsp;&nbsp;**类型选择建议：**
   
 1. 当明确知晓数值不可能为负时，选用无符号
