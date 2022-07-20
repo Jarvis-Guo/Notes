@@ -15,11 +15,26 @@
 ##### 2.1.1 算术类型
 &nbsp;&nbsp;&nbsp;&nbsp;算术类型又分为两类--
   
- - 整型
+ - 整型（包括布尔与字符型）
+
+| Type | Minimum Length | Description |
+| ----- | :---: | :---: |
+| short | 16 | - |
+| int   | 16 | - |
+| long  | 32 | - |
+| long&nbsp;long | 64 | C++11中新引入的类型 |
+| char  | 8 | 一个char的空间应确保可以存放机器基本字符集中任意字符对应的数值，即一个char与一个机器字节大小一致 |
+| wchar_t | 16 | wchar_t是宽字符，用于确保可以存放机器最大扩展字符集 |
+| char16_t | 16 | Unicode字符类型 |
+| char32_t | 32 | Unicode字符类型 |
   
  - 浮点型
-  
 
+| Type | Minimum Length | Description |
+| ----- | :---: | :---: |
+| float | 32 | - |
+| double | 64 | - |
+| long&nbsp;double | 96or128 | - |
 
 &nbsp;&nbsp;&nbsp;&nbsp;**带符号与无符号类型**
 
