@@ -1,4 +1,4 @@
-## Content
+# Content
 
 [Part I C++基础](https://github.com/Jarvis-Guo/Notes/blob/main/C++Primer/Note.md#part-i-c%E5%9F%BA%E7%A1%80)
 
@@ -6,13 +6,13 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;[Chapter3 字符串、向量和数组](https://github.com/Jarvis-Guo/Notes/blob/main/C++Primer/Note.md#chapter3-%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%90%91%E9%87%8F%E5%92%8C%E6%95%B0%E7%BB%84)
 
-## Part I C++基础
+# Part I C++基础
 
-### Chapter2 变量和类型
-#### 2.1 基本内置类型
+## Chapter2 变量和类型
+### 2.1 基本内置类型
 &nbsp;&nbsp;&nbsp;&nbsp;C++基本数据类型--算术类型（整型、浮点型、布尔、字符）和空类型
   
-##### 2.1.1 算术类型
+#### 2.1.1 算术类型
 &nbsp;&nbsp;&nbsp;&nbsp;算术类型又分为两类--
   
  - 整型（包括布尔与字符型）
@@ -51,7 +51,7 @@
 4. 执行浮点数运算选用double，因为float通常精度不足且二者的计算代价相差无几，甚至可能双精度比单精度运算还快；但long double一般是没有必要的，精度没有普遍的需求且运行耗时较高
 
 
-##### 2.1.2 类型转换
+#### 2.1.2 类型转换
 
 &nbsp;&nbsp;&nbsp;&nbsp;对象的类型定义了对象能包含的数据和能参与的运算，其中一种运算被大多数类型支持，即将对象从一种类型_转换_为另一种_相关_类型；（***类型转换是一种运算***）
 
@@ -77,7 +77,7 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;因此，切忌混用带符号与无符号类型
 
-##### 2.1.3 字面值常量
+#### 2.1.3 字面值常量
 
 &nbsp;&nbsp;&nbsp;&nbsp;每个字面值常量都对应一种数据类型，字面值常量的形式和值决定了它的数据类型
 
@@ -129,4 +129,7 @@ std:cout << "a really, really long string literal "
 | f/F | float |
 | l/L | long double |
 
-### Chapter3 字符串、向量和数组
+### 2.2 变量
+
+
+## Chapter3 字符串、向量和数组
