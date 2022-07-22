@@ -95,6 +95,38 @@
 
 &nbsp;&nbsp;&nbsp;&nbsp;**字符和字符串字面值**
 
+&nbsp;&nbsp;&nbsp;&nbsp;由单引号括起来的一个字符称为char型字面值，双引号括起来的是字符串型字面值
+
+&nbsp;&nbsp;&nbsp;&nbsp;如果两个字符串字面值位置紧邻且仅由空格、缩进和换行符分隔，则它们实际上是一个整体，_适应长字符串多行书写_
+
+```
+std:cout << "a really, really long string literal "
+            "that spans two lines" << std:endl;
+```
+
 &nbsp;&nbsp;&nbsp;&nbsp;**指定字面值类型**
+
+&nbsp;&nbsp;&nbsp;&nbsp;通过添加前缀和后缀，可以改变整型、浮点型和字符型字面值的默认类型
+
+字符和字符串字面值
+| 前缀 | 含义 | 类型 |
+| :---: | :---: | :---: |
+| u | Unicode16字符 | char16_t |
+| U | Unicode32字符 | char32_t |
+| L | 宽字符 | wchar_t |
+| u8 | UTF-8 | char |
+
+整型字面值
+| 后缀 | 最小匹配类型 |
+| :---: | :---: |
+| u/U | unsigned |
+| l/L | long |
+| ll/LL | long long |
+
+浮点型字面值
+| 后缀 | 类型 |
+| :---: | :---: |
+| f/F | float |
+| l/L | long double |
 
 ### Chapter3 字符串、向量和数组
